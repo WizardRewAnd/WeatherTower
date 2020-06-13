@@ -13,7 +13,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical;x
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -73,5 +73,10 @@ body {
 
 .temperature-degree {
   font-size: 40px;
+}
+
+.temperature-description {
+  text-transform: uppercase;
+  font-size: 20px;
 }
 /*# sourceMappingURL=input.css.map */
