@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="input.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <script src = "app.js"></script>
+    <script 
+        src = "app.js">
+    </script>
+
+    <script 
+        src = "skycons.js">
+    </script>
 
     <div class = "location">
         <h1 class = "location-timezone">Timezone</h1>
-        <p>Icon</p>
+        <canvas id="icon" width="128" height="128"></canvas>
     </div>
 
     <div class="temperature">
@@ -21,5 +28,8 @@
         </div>
             <div class="temperature-description">----</div>
     </div>
+
+    
+
 </body>
 </html>
