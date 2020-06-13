@@ -15,7 +15,7 @@ body {
   color: white;
 }
 
-.temperature {
+.location {
   height: 30vh;
   width: 50%;
   display: flex;
@@ -24,12 +24,18 @@ body {
 }
 
 .temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
 }
 
-.defree-section {
+.degree-section {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .degree-section span {
@@ -37,6 +43,6 @@ body {
   font-size: 30px;
 }
 
-.degree-section h1 {
+.temperature-degree {
   font-size: 40px;
 }
