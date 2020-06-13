@@ -1,1 +1,1 @@
-"use strict";window.addEventListener("load",function(){});
+"use strict";window.addEventListener("load",function(){nabigator.geolocation&&navigator.geolocation.getCurrentPositionPsition(function(o){console.log(o)})});
