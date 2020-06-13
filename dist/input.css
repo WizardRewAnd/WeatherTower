@@ -11,4 +11,10 @@ body {
   flex-direction: column;
   align-items: center;
   background: linear-gradient(#2e96a3, #303e8f);
+  font-family: sans-serif;
+  color: white;
+}
+
+.location {
+  height: 30vh;
 }
